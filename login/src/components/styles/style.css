@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100;1,200&display=swap");
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* TEMA LIGHT*/
+#light {
+  background-color: #7159c1;
+}
+#light .container-login {
+  background-color: #fff;
+}
+#light .header-login h1 {
+  color: #7159c1;
+}
+#light .username,
+#light .password {
+  color: #03030a;
+  background-color: rgba(30, 9, 56, 0.1);
+}
+#light .username::placeholder,
+#light .password::placeholder {
+  color: rgba(14, 12, 41, 0.267);
+}
+#light .forgot {
+  color: #03030a;
+}
+/*FIM TEMA LIGHT*/
+
+
+/*TEMA DARK*/
+#dark {
+  background-color: #1e1e26;
+}
+#dark .container-login {
+  background-color: #1616169c;
+}
+#dark .header-login h1 {
+  color: #fff;
+}
+#dark .username,
+#dark .password {
+  background-color: rgba(136, 136, 136, 0.1);
+  color: #fff;
+}
+#dark .username::placeholder,
+#dark .password::placeholder {
+  color: rgba(254, 255, 255, 0.5);
+}
+#dark .forgot {
+  color: #ddd9e7;
+}
+/*FIM TEMA DARK*/
+
+.container-login {
+  width: 400px;
+  height: 400px;
+  border: 2px solid #7159c1;
+  border-radius: 1.5rem;
+  box-shadow: 0px 11px 35px 2px rgb(0, 0, 0, 0.4);
+}
+.header-login h1 {
+  font-size: 33px;
+  font-weight: bold;
+  font-family: Poppins;
+
+  padding-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.username,
+.password {
+  width: 75%;
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  outline: 0;
+  padding: 18px 18px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-login {
+  cursor: pointer;
+  background-color: #7159c1;
+  border-radius: 5rem;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  width: 50%;
+  height: 40px;
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.btn-login:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #3d1457;
+}
+.forgot {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-top: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.forgot-a {
+  font-weight: bold;
+  color: #7159c1;
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+.forgot-a:hover {
+  transition: all 0.3s ease-in-out;
+  color: #250538;
+}
